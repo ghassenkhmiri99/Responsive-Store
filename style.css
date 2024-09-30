@@ -1,0 +1,24 @@
+.navbar-nav  :hover {
+    background-color: #082d55; 
+    color: white;
+    border-radius: 50px;
+    cursor: pointer; 
+    transition: background-color 0.1s; 
+}
+.logo {
+    width: 150px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+}
+@media (max-width: 768px) {
+    .box {
+        background-color: #000000; 
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        font-size: 14px; 
+    }
+}
+
+ 
